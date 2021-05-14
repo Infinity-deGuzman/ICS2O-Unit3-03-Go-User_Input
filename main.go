@@ -26,7 +26,7 @@ func main() {
 	fmt.Scanln(&radius)
 
 	// process
-  var radCubed = math.Pow(radius, 3)
+	var radCubed = math.Pow(radius, 3)
 	var volume = radCubed * 4 / 3 * 3.14159265
 
 	// output
