@@ -1,7 +1,7 @@
 // Created by: Infinity de Guzman
 // Created on: May 2021
 //
-// This program calculates the area of a trapezoid
+// This program calculates the volume of a sphere
 
 package main
 
