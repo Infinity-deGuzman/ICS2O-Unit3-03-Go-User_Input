@@ -8,6 +8,8 @@ package main
 import (
 	"fmt"
 
+	"math"
+
 	"github.com/leekchan/accounting"
 )
 
@@ -24,7 +26,7 @@ func main() {
 	fmt.Scanln(&radius)
 
 	// process
-	var volume = (4 / 3) * (radius ** 3) * 3.14159265
+	var volume = (4 / 3) * math.Pow(radius, 3) * 3.14159265
 
 	// output
 	fmt.Println("The volume is: ", accountingFormater.FormatMoney(volume), "cm³")
